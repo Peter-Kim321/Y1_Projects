@@ -1,4 +1,3 @@
-
 <!-- Mainpage inroduction CSS -->
 
 *
@@ -8,7 +7,7 @@
 }
 
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)), url(../../Pictures/pic4.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)), url(../../Pictures/pic4v2.jpg);
     height: 100%;
     width: 100%;
     top: 0;
