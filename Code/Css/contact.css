@@ -1,1 +1,114 @@
-#
+<!-- Mainpage inroduction CSS -->
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)), url(../../Pictures/pic4v2.jpg);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+
+
+}
+/* PROJECT PJS */
+.heading {
+    color: white;
+    font-size: 50%;
+    position: absolute;
+    top: 3%;
+    left: 11%;
+
+
+    /*
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    */
+}
+
+
+.row {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    -webkit-writing-mode: vertical-lr;
+    -moz-writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    background: white;
+
+}
+
+.topnav {
+    padding: 0px 3% 8% 3%;
+    word-spacing: 15px;
+
+}
+
+.topnav li {
+    display: inline-block;
+}
+
+.topnav li a {
+    color: black;
+    text-decoration: none;
+    letter-spacing: 3px;
+    padding: 10px 10px;
+    font-size: 100%;
+}
+
+.HOME:hover {
+    background:red;
+}
+
+.PROJECTS:hover {
+    background:red;
+}
+
+.ABOUT:hover {
+    background:red;
+}
+
+.CONTACT:hover {
+    background:red;
+}
+
+.message {
+    font-size:
+}
+
+.logo {
+    position: absolute;
+    top: 97.5%;
+    right: 23%;
+    transform: rotate(180deg);
+    background: transparent;
+
+    margin: 0;
+    padding: 0;
+}
+
+.fish {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.normal {
+    overflow: hidden;
+}
+
+.logo:hover .normal {
+    width: 100%;
+}
