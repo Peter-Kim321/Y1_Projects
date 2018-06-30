@@ -6,10 +6,10 @@
     padding: 0;
 }
 
-header {
+.background {
     background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)), url(../../Pictures/pic4v2.jpg);
-    height: 100%;
-    width: 100%;
+    height: 110%;
+    width: 110%;
     top: 0;
     left: 0;
     background-size: cover;

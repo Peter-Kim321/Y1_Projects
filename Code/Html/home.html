@@ -7,17 +7,24 @@
     <link href="../Css/home.css" rel="stylesheet" type="text/css">
     <link <link href="https://fonts.googleapis.com/css?family=Raleway"
           rel="stylesheet">
-
     <style>
       body {
           font-family: 'Raleway', sans-serif;
       }
     </style>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="jquery.backgroundMove.js"></script>
+
   </head>
 
-
-
   <body>
+      <div class="background"></div>
+      <script>
+        $('.background').backgroundMove({
+            movementStrength:'30'
+        });
+      </script>
       <header>
           <div class="heading">
               <h1> PROJECT PJS </h1>
